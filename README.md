@@ -28,6 +28,11 @@ Our method gradually enables effective control by weak conditions, thereby achie
 ## Installation
 
 ```
+conda create -n v-express python=3.10
+```
+
+
+```
 # install requirements
 pip install diffusers==0.24.0
 pip install imageio-ffmpeg==0.4.9
@@ -53,6 +58,14 @@ mv V-Express/model_ckpts model_ckpts
 
 # then you can use the scripts
 ```
+
+```
+pip install xformers
+pip install -U torch torchaudio --no-cache-dir  # https://github.com/pytorch/audio/issues/62#issuecomment-1166196925
+pip install av  # https://github.com/PyAV-Org/PyAV#installation
+```
+
+
 
 ## Download Models
 
